@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+  background-image: url("cassi-josh-lhnOvu72BM8-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 210px;
+}
+#container {
+  /* background-image: url("peter-olexa-ZO4rHqkCat4-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat; */
+  background-color: aliceblue;
+  color: black;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 3px rgba(255,255,255,1);;
+}
+h1 {
+  border-bottom: 1px solid rgb(190, 199, 199);
+  text-align: center;
+  padding: 10px;
+  font-family: "Times New Roman", serif;
+}
+#ul {
+  font-size: 25px;
+  margin: 7px;
+  padding: 12px;
+}
+.list {
+  font-size: 20px;
+  list-style: none;
+  margin-top: 30px;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+#nextbtn {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  font-size: larger;
+  margin-top: 30px;
+  position: fixed;
+  cursor: pointer;
+  margin-left: 390px;
+  width: 100px;
+}
+
+.display{
+  font-size: 20px;
+  list-style: none;
+  margin-top: 30px;
+  border:2px solid lightseagreen;
+  padding: 10px;
+  border-radius: 10px;
+}
